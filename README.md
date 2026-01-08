@@ -1,40 +1,36 @@
-# Galeria de Fotos
+# 🖼️ Galeria | Maria Eduarda Fonseca
 
-Aplicação web em React que exibe uma galeria de fotos com busca em tempo real por título e filtros por categoria.
+A **Galeria** é uma aplicação web desenvolvida com React e Vite para exibir uma coleção de imagens de forma simples, moderna e responsiva. O objetivo é oferecer uma visualização organizada dos itens, ideal para portfólio visual, produtos ou registros de fotos. [web:320][web:325]
 
-## Tecnologias
+### 🔍 Funcionalidades
 
-- React + Vite
-- TypeScript
-- CSS Modules
+- 📂 Listagem de imagens em layout de galeria.
+- 🏷️ Exibição de título e/ou descrição para cada item.
+- 🔎 Possibilidade de filtrar ou organizar visualmente os cards (conforme regras do projeto).
+- 📱 Layout responsivo, adaptado para diferentes tamanhos de tela (mobile, tablet e desktop).
+- ✨ Estilo moderno utilizando componentes visuais e ícones.
 
-## Funcionalidades
+### 🛠️ Tecnologias utilizadas
 
-- Header com título "Galeria de Fotos".
-- Barra de busca que filtra as fotos em tempo real pelo título.
-- Grid de fotos responsivo com efeito de hover.
-- Filtros por categoria (`Cidades`, `Flores`, `Pets`, `Tudo`).
-- Mensagem "Nenhuma foto encontrada" quando o filtro não retorna resultados.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Material UI](https://mui.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- (Opcional) TypeScript, caso o projeto esteja tipado. [web:330]
 
-## Como rodar o projeto
+### 🧹 Estrutura da aplicação
 
-1. Clonar o repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/SEU-REPO.git
-   cd SEU-REPO
-## Deploy
+- **Header:** título da galeria e breve descrição.
+- **Área de galeria:** grade de cards com as imagens e informações principais.
+- **Possíveis ações:** botões ou ícones para detalhes, links externos ou interações.
+- **Footer:** créditos e informações adicionais do projeto.
 
-Instalar as dependências
-
-```bash
-  npm run deploy
-```
-
-Rodar em ambiente de desenvolvimento:
+### 🚀 Como rodar o projeto localmente
 
 ```bash
-  npm run dev
-```
+# Instalar dependências
+npm install
 
-Abrir no navegador o endereço indicado pelo Vite (geralmente http://localhost:5173).
+# Rodar em modo desenvolvimento
+npm run dev
 
