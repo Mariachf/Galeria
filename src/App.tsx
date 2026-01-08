@@ -3,7 +3,7 @@ import Search from "./Components/SearchBar/SearchBar";
 import Cards from "./Components/PhotoCard/Card";
 import { useState } from 'react';
 import { cidades, flores, pets } from "./assets/galeria";
-
+import Footer from "./Components/Footer/footer";
 
 
 function App() {
@@ -27,6 +27,8 @@ function App() {
       ) : (
         <Cards ItemGaleria={filteredPhotos} />
       )}
+
+      <Footer />
     </>
   );
 }
